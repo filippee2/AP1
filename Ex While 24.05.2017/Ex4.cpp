@@ -20,3 +20,4 @@ main()
 	printf("A divisao dos dois numeros e: %.2f", divide);
 	getche();
 }
+

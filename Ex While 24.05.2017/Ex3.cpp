@@ -2,13 +2,14 @@
 #include <conio.h>
 main()
 {
-	int num, numAntes, divide;
+	char teclas;
 	
+	fflush(stdin);
 	do{
-	printf("Digite um numero: ");
-	scanf("%d", &num);
-	}while(num<0);
-	numAntes=num;
-	printf("%d", numAntes);
+		printf("Digite uma letra: ");
+		scanf("%c", &teclas);
+		fflush(stdin);
+	}while(teclas!='w');
 	getche();
 }
+

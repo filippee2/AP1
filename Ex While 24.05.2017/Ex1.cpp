@@ -2,13 +2,11 @@
 #include <conio.h>
 main()
 {
-	int num;
+	int x=1;
 	
-	printf("\nDigite um numero inteiro: ");
-	scanf("%d", &num);
-	while(num!=0){
-		num--;
-		printf("\n%d", num);
+	while((x>=1 && x<=100)){
+		printf("\n%d", x);
+		x++;
 	}
 	getche();
 }
