@@ -15,6 +15,6 @@ main()
 	printf("\nDigite o valor total do veiculo: ");
 	scanf("%f", &valorVeiculo);
 	valorParcelado=valorVeiculo/financiamento;
-	printf("\nO financiamento sera de %d X %.2f", financiamento, valorParcelado);
+	printf("\nO financiamento sera de %d X %.3f", financiamento, valorParcelado);
 	getche();
 }
